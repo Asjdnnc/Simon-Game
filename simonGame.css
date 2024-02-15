@@ -1,0 +1,33 @@
+body{
+    text-align:center;
+}
+.btn{
+    height:100px;
+    width:100px;
+    border-radius:20%;
+    border:2px solid black; 
+    margin-left:10px;
+    margin-bottom: 10px;
+}
+.btn-container{
+    display:flex;
+    justify-content: center;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.peru{
+    background-color: peru;
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: rgb(167, 247, 167);
+}
