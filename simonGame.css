@@ -1,5 +1,7 @@
-body{
-    text-align:center;
+
+#heading{
+    font-size: 36px;
+    text-decoration: underline;
 }
 .btn{
     height:100px;
@@ -20,14 +22,110 @@ body{
     background-color: blue;
 }
 .green{
-    background-color: green;
+    background-color: rgb(2, 217, 2);
 }
 .peru{
-    background-color: peru;
+    background-color: rgb(227, 177, 50);
 }
 .flash{
     background-color: white;
 }
 .userFlash{
     background-color: rgb(167, 247, 167);
+}
+body{
+    background-image: url(simon-gamebackground.jpg);
+    background-repeat: no-repeat;
+    background-size:1600px 750px;
+    display: flex;
+}
+#scorecard{
+    margin-top:100px;
+    width:28%;
+    border: 3px solid black;
+    margin-left: 130px;
+    margin-right:130px;
+    box-shadow: 10px 10px 7px rgb(109, 107, 107);
+    transition: ease-in-out .5s;
+}
+#scorecard:hover{
+    transform: scale(1.1);
+}
+#scorehead1 p{
+    text-align: center;
+    font-size:35px;
+}
+#scorehead1 {
+    margin-left:50px;
+    width:260px;
+    border:0.5px solid black;
+}
+#start{
+    margin-top: 20px;
+    margin-left:45px;
+}
+#username{
+    height:35px;
+    width:250px;
+    border-radius: 20px;
+    padding-left: 20px;
+    box-shadow: 4px 4px 5px grey;
+}
+#play{
+    margin-top: 20px;
+    margin-left: 80px;
+    height:25px;
+    width:100px;
+    border-radius: 10px;
+    background-color: rgb(204, 255, 77);
+    box-shadow: 4px 4px 5px grey;
+}
+#plistbox{
+    margin-left: 40px;
+    display: flex;
+}
+#pscore{
+    margin-left: 50px;
+    list-style-type:none;
+}
+#main{
+    text-align: center;
+}
+#rules{
+    margin-top:100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:10px;
+    border:3px solid black;
+    width:28%;
+    height:fit-content;
+    margin-right:120px;
+    margin-left:110px;
+    box-shadow: 10px 10px 9px rgb(109, 107, 107);
+    transition: ease-in-out .5s;
+    overflow:scrol;
+}
+#ruleHead{
+    margin-left: 110px;
+}
+#rules:hover{
+    transform: scale(1.1);
+}
+.p{
+    margin-top:30px;
+    margin-left:50px;
+    width:130px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+.p:hover{
+    background-color: yellow;
+}
+#scorecard{
+    /* text-align: center; */
+    padding-left:20px;
+}
+#scorehead{
+    text-align: center;
 }
