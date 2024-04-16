@@ -7,17 +7,66 @@
     <link rel="stylesheet" href="simonGame.css">
 </head>
 <body>
-    <h1>Simon Game</h1>
-    <h2>Press any key to start</h2>
-    <div class="btn-container">
-        <div class="line1">
-            <div class="btn red" type="button" id="red"></div>
-            <div class="btn blue "type="button" id="blue" ></div>
+    
+    <div id="rules">
+        <h2 id="ruleHead"><u>Gameplay</u></h2>        
+    <p id="design">
+        <b>Simon's Turn:</b>
+        <br>
+        The Simon unit starts by flashing one colored button with a corresponding sound.
+        As the game progresses, Simon adds more lights to the sequence, making it longer each time.
+        <br>
+        <br>
+       <b>Your Turn:</b> <br>
+        Your job is to watch Simon's pattern and then press the colored buttons in the "exact same order".</u>
+        <br>
+        If you repeat the sequence correctly, Simon will add another light, making the pattern longer.
+        <br>
+        <br>
+        <b>Winning and Losing</b>
+        <br>
+        If you make a mistake and press the wrong button you lose. Simon will show red color, and your score is displayed.
+        The goal is to repeat as many sequences as possible, getting a higher score with each correct pattern.</p>
+</div>
+    <div id="main">
+        <h1 id="heading">Simon Game</h1>
+        <h2 id="l">Click play to start</h2>
+        <div class="btn-container">
+           <div class="line1">
+              <div class="btn red" type="button" id="red"></div>
+              <div class="btn blue "type="button" id="blue" ></div>
+           </div>
+           <div class="line2">
+              <div class="btn green" type="button" id="green"></div>
+              <div class="btn peru" type="button" id="peru"></div>
+           </div>
         </div>
-        <div class="line2">
-            <div class="btn green" type="button" id="green"></div>
-            <div class="btn peru" type="button" id="peru"></div>
+        <!-- <div id="mode">
+            <div class="p"><a>Single Player</a></div>
+            <div class="p"><a>Mutiplayer</a></div>
+        </div> -->
+    </div>
+    <div id="scorecard">
+        <h2 id="scorehead"><u>Scorecard</u></h2>
+        <div id="scorehead1">
+            <p>Highest Score</p>
+            <p id="score">0</p>
         </div>
+         <div id="plistbox">
+           <div>
+             <ol id="plist">
+             </ol>
+           </div>
+            <div>
+                <ul id="pscore">
+                </ul>
+            </div>
+         </div>
+         <div id="start">
+            <input id="username" type="text" placeholder="Enter name"><br>
+            <button id="play">play</button>
+         </div>
+        <br>
     </div>
     <script src="simon.js"></script>
 </body>
