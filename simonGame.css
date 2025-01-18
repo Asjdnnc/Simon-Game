@@ -38,6 +38,7 @@ body{
     background-repeat: no-repeat;
     background-size:1600px 750px;
     display: flex;
+    min-height:100vh;
 }
 #scorecard{
     margin-top:100px;
