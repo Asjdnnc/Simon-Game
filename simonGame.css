@@ -36,7 +36,7 @@
 body{
     background-image: url(simon-gamebackground.jpg);
     background-repeat: no-repeat;
-    background-size:1600px 750px;
+    background-size:1800px 1050px;
     display: flex;
     min-height:100vh;
 }
